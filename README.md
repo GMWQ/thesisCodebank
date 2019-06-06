@@ -1,11 +1,10 @@
-#******************************
-#Gareth Quaile - 14342871
-#Final Year Project Readme
-#******************************
+# Gareth Quaile - 14342871
+
+# Thesis Readme
 
 Note: All scripts were built on Python 3.6
 
-#Files Present in this repo:
+# Files Present in this repo:
 
 	twitterScraper.py
   
