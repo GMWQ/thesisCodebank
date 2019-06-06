@@ -14,7 +14,7 @@ Note: All scripts were built on Python 3.6
     
 		Data: File path must be respecified for own machine, current paths only work on my machine.
     
-		Other: Path to "authentication.ini" folder must be specified to authenticate Twitter API, can be placed in folder
+		Other: Path to "authentication.ini" folder must be specified to authenticate Twitter API, can be placed
 		alongside this script for ease of use.
 
 
