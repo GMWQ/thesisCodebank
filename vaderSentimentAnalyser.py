@@ -9,9 +9,9 @@ neu = 0
 neg = 0
 total = 0
 
-file = open(r"C:\Users\u180530\Desktop\FYP\Data\Final\Accuracy\MexicoAccuracyPos2.txt", "w+")
+file = open(r"C:\Users\<Redacted>\Desktop\FYP\Data\Final\Accuracy\<File>.txt", "w+")
 
-file_object = open(r"C:\Users\u180530\Desktop\FYP\Data\Final\Annotations\Positives.txt", encoding = 'ansi')
+file_object = open(r"C:\Users\<Redacted>\Desktop\FYP\Data\Final\Accuracy\<File>.txt", encoding = 'ansi')
 
 for line in file_object:
     vs = analyser.polarity_scores(line)
@@ -32,7 +32,7 @@ print("Percentage of positive tweets: {}%".format(pos*100/total))
 print("Percentage of neutral: {}%".format(neu*100/total))
 print("Percentage of negative tweets: {}%".format(neg*100/total)) 
 
-with open(r"C:\Users\u180530\Desktop\FYP\Data\Final\Accuracy\MexicoAccuracyPos2.txt", "a") as polapp:
+with open(r"C:\Users\<Redacted>\Desktop\FYP\Data\Final\Accuracy\<File>.txt", "a") as polapp:
     polapp.write('\n\n' + "Percentage of positive tweets: {}%".format(pos*100/total) + '\n') 
     polapp.write("Percentage of neutral: {}%".format(neu*100/total) + '\n') 
     polapp.write("Percentage of negative tweets: {}%".format(neg*100/total) + '\n')
